@@ -1,0 +1,101 @@
+table,td{
+	border-style:solid;
+	border-size:1px;
+	border-collapse:collapse;
+}
+td{
+	width:100px;
+	height:20px;
+}
+.td_default{
+	width:100px;
+	height:120px;
+}
+#day_log_table{
+	height:30px;
+}
+#day_log{
+	display:none;
+	position:absolute;
+	right:20px;
+	background-color: white;
+	border:1px solid;
+}
+#day_log_table{
+	max-height: 900px;
+}
+#timelog{
+	position:absolute;
+	left:800px;
+	background-color: white;
+	border:1px solid;
+	display: none;
+}
+#thistime{
+	font-size:50px;
+}
+#achievement{
+	border:1px solid;
+	display:none;
+	width:400px;
+	height:180px;
+	background-color:white;
+	position:absolute;
+	left:70%;
+}
+#table{
+	width:1600px;
+	height:900px;
+	margin:0 auto;
+}
+#title{
+	width:1600px;
+	margin:0 auto;
+}
+#body_area{
+
+	margin:0 auto;
+}
+.data{
+	max-width:93px;
+	min-width:93px;
+	height:100%;
+	word-wrap:break-word; 
+}
+
+.finished{
+	background-color:#66FFFF !important;
+}
+
+#alarmclock{
+	width:400px;
+	height:800px;
+	position:absolute;
+	left:60%;
+	background-color:white;
+	border:1px solid;
+	display:none;
+}
+
+#hidealarmclock{
+	position: relative;
+	top:20px;
+	left:50%;
+	margin:0 auto;
+}
+
+#newalarmclock{
+	top:20px;
+	position: relative;
+	left: 10%;
+}
+
+.alarmclock{
+	position: relative;
+	left:35px;
+	top:10px;
+}
+.cancel{
+	position: relative;
+	left:80px;
+}
